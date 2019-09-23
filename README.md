@@ -98,7 +98,7 @@ Proyecto de ejemplo que demuestra el uso de funciones Lambda con DynamoDB en AWS
 
   El `name: "notes"` simplemente le dice a Amplify que queremos nombrar a nuestra API. Amplify permite agregar multiples APIs en una app. En nuestro caso es una sola.
 
-  Luego, reemplacemos nuestro viejo servicio API con llamadas a API Gateway a traves de Amplify:
+  Luego, reemplacemos nuestro viejo servicio API con llamadas a API Gateway a través de Amplify:
 
   - En los archivos `src/containers/Home.js`, `src/containers/NewNote.js` y `src/containers/Notes.js`:
 
@@ -146,4 +146,3 @@ Proyecto de ejemplo que demuestra el uso de funciones Lambda con DynamoDB en AWS
   **Acceder al cliente**
 
   Una vez subido, nuestro cliente estará disponible a través de la URL asignada al bucket.
-  
